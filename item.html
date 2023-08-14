@@ -1,0 +1,509 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<!-- Halaman inventory-list.html pada , 01 Nov 2022 02:25:49 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Demo 5 - Inventory List Alpha Tech</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="/package-1/assets/img/logos/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/jarallax.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/odometer.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+
+    <!-- preloader-start -->
+    <div class="preloader">
+        <div class="meter">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="subline"></div>
+            <div class="subline"></div>
+            <div class="subline"></div>
+            <div class="subline"></div>
+            <div class="subline"></div>
+            <div class="loader-circle-1">
+                <div class="loader-circle-2"></div>
+            </div>
+            <span class="loadtext">Loading</span>
+        </div>
+    </div>
+    <!-- preloader-end -->
+
+
+    <!-- header-area -->
+    <header class="header-style-two inner-page-header">
+        <div class="header-top-wrap">
+            <div class="container custom-container">
+                <!-- <div class="row">
+                    <div class="col-md-6 d-none d-md-block">
+                        <div class="header-top-action">
+                            <ul>
+                                <li><i class="far fa-envelope"></i><a href="#"><span class="__cf_email__"
+                                            data-cfemail="84edeae2ebc4f7f1f4f4ebf6f0aae7ebe9">[email&#160;protected]</span></a>
+                                </li>
+                                <li><i class="far fa-clock"></i> 10:00 AM To 5:00 PM</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="header-top-right">
+                            <ul>
+                                <li class="header-top-social">
+                                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                                    <a href="#"><i class="fab fa-twitter-square"></i></a>
+                                    <a href="#"><i class="fab fa-vimeo-square"></i></a>
+                                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                                </li>
+                                <li class="header-top-user">
+                                    <div class="top-user-thumb">
+                                        <img src="img/images/header_top_user.jpg" alt="">
+                                    </div>
+                                    <a href="author-profile.html">Alexandra</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <div id="sticky-header" class="main-header menu-area" style="background-color: #292929;">
+            <div class="container custom-container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mobile-nav-toggler"><i class="fas fa-bars"></i></div>
+                        <div class="menu-wrap">
+                            <nav class="menu-nav show">
+                                <div class="logo">
+                                    <a href="index.html" class=""><img style="width: 170px;"
+                                        src="img/logo/WhatsApp_Image_2023-06-08_at_13.14.14-removebg-preview.png" alt="Logo"></a>
+                                </div>
+
+                                <div class="navbar-wrap main-menu d-none d-lg-flex">
+                                    <ul class="navigation">
+                                        <li><a href="index.html">Beranda</a></li>
+                                        <li><a href="item.html">Item</a></li>
+                                        <li class="dropdown"><a href="#">Halaman<i class="fa fa-caret-down ml-4"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="about-us.html">Tentang Kami</a></li>
+                                                <li><a href="loan-calculator.html">FAQ</a></li>
+                                                <li><a href="login-register.html">Kebijakan Privasi</a></li>
+                                                <li><a href="login-register.html">Kontak</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="blog.html">Artikel</a></li>
+                                    </ul>
+                                </div>
+
+                                <div class="header-action d-none d-md-block">
+                                    <ul>
+                                        <li class="mr-4">
+                                            <a href="author-profile.html" class="text-white mb-20">Nama User</a>
+                                        </li>
+                                        <li class="header-shop-cart"><a href="#"><i
+                                                class="fas fa-user mb-14"></i></a>
+                                            <ul class="minicart">
+                                                <li class="d-flex align-items-start">
+                                                    <!-- <div class="cart-content"> -->
+                                                        <h5>
+                                                            <a href="#">Profil</a>
+                                                        </h5>
+                                                    <!-- </div> -->
+                                                </li>
+                                                <li class="d-flex align-items-start">
+                                                        <h5>
+                                                            <a href="#">Ubah kata sandi</a>
+                                                        </h5>
+                                                </li>
+                                                <li class="d-flex align-items-start">
+                                                        <h5>
+                                                            <a href="#">Log out</a>
+                                                        </h5>
+                                                </li>
+                                                
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <!-- Mobile Menu  -->
+                        <div class="mobile-menu">
+                            <div class="menu-backdrop"></div>
+                            <div class="close-btn"><i class="fas fa-times"></i></div>
+
+                            <nav class="menu-box">
+                                <div class="nav-logo"><a href="index.html"><img src="img/images/car_cat05.png" alt=""
+                                    title=""></a>
+                                </div>
+                                <div class="menu-outer">
+                                </div>
+                                <div class="social-links">
+                                    <ul class="clearfix">
+                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-facebook-square"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-pinterest-p"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-instagram"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <!-- End Mobile Menu -->
+                    </div>
+                </div>
+            </div>
+            <div id="collapse-search-body" class="collapse-search-body collapse">
+                <div class="search-body">
+                    <div class="container custom-container">
+                        <form action="#">
+                            <div class="form-item">
+                                <input name="search" placeholder="Type here...">
+                                <button type="submit"><i class="fas fa-search"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-area-end -->
+
+
+    <!-- main-area -->
+    <main>
+            <!-- popular-selling-brand -->
+            <section class="popular-selling-brand gray-bg pt-50 pb-120">
+                <div class="container">
+                    <div class="popular-selling-top mb-10">
+                        <div class="">
+                            <h2>Item</h2>
+                            <div class="row">
+                                <div class="col-7">
+                                    <input style="width: 200%;" type="text" class="form-control" placeholder="First name" aria-label="First name">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="see-all-brand">
+                            <a href="#">See all Makes</a>
+                        </div> -->
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="popular-selling">
+                                <a href="#">
+                                    <div class="card" style="width: 40rem; height: 59rem;">
+                                        <img src="img/images/inventory_list_img01.jpg" style="width: 100%; height: 100%;" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Produk 1</h5>
+                                            <a href="blog.html"><p class="card-link">kategori</p></a>
+                                            <p class="card-menang"></p>
+                                            <p class="card-text">Bid Awal :</p>
+                                            <h6 class="card-text">Rp 16.000.000</h6>
+                                            <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="">
+                                <div class="row justify-content-start">
+                                    <div class="col-lg-8 col-md-5 col-sm-6">
+                                        <div class="popular-selling">
+                                            <a href="#">
+                                                <div class="card" style="width: 18rem; height: 28.3rem;">
+                                                    <img src="img/images/inventory_list_img02.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Produk 2</h5>
+                                                        <p class="card-link">kategori</p>
+                                                        <p class="card-text">Bid awal :</p>
+                                                        <h6>900.000</h6>
+                                                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-6 col-sm-7">
+                                        <div class="popular-selling">
+                                            <a href="#">
+                                                <div class="card" style="width: 18rem; height: 28.3rem;">
+                                                    <img src="img/images/inventory_list_img03.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Produk 3</h5>
+                                                        <p class="card-link">kategori :</p>
+                                                        <!-- <p class="card-menang">Pemenang lelang :</p> -->
+                                                        <p class="card-text">Bid :</p>
+                                                        <h6 class="card-text">800.000</h6>
+                                                    <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-8 col-md-5 col-sm-6">
+                                        <div class="popular-selling">
+                                            <a href="#">
+                                                <div class="card mt-30" style="width: 18rem; height: 28.3rem;">
+                                                    <img src="img/images/inventory_list_img04.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Produk 3</h5>
+                                                        <p class="card-link">kategori :</p>
+                                                        <!-- <p class="card-menang">Pemenang lelang :</p> -->
+                                                        <p class="card-text">Bid :</p>
+                                                        <h6 class="card-text">300.000</h6>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-2 col-md-6 col-sm-7">
+                                        <div class="popular-selling">
+                                            <a href="#">
+                                                <div class="card mt-30" style="width: 18rem; height: 28.3rem;">
+                                                    <img src="img/images/inventory_list_img05.jpg" class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Produk 4</h5>
+                                                        <p class="card-link">kategori :</p>
+                                                        <p class="card-text">Bid awal :</p>
+                                                        <h6>60.000</h6>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="popular-selling-items">
+                                            <a href="#">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="..." class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                    <h5 class="card-title">Card title</h5>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="popular-selling-items">
+                                            <a href="#">
+                                                <div class="card" style="width: 18rem;">
+                                                    <img src="..." class="card-img-top" alt="...">
+                                                    <div class="card-body">
+                                                    <h5 class="card-title">Card title</h5>
+                                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div> -->
+                                    <!-- <div class="col-lg-3 col-md-4 col-sm-6">
+                                        <div class="popular-selling-items">
+                                            <a href="#"><img src="img/brand/popular_brand08.jpg" alt=""></a>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="parent col-lg-12">
+                            <button class="btn-lainnya" style="width: 15%;" type="submit">Lainnya<i class="fas fa-arrow-right ml-3"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <!-- main-area-end -->
+
+    <!-- footer-area -->
+    <footer class="footer-bg" data-background="img/bg/footer_bg.jpg">
+        <div class="footer-top-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="footer-widget black-bg mb-50">
+                            <div class="fw-title mb-30">
+                                <h4 class="title">Contact Us</h4>
+                            </div>
+                            <div class="footer-text mb-45">
+                                <p>There are many variations of passaes of orem ipsum available, but the majority have
+                                    in some form, by ipsum
+                                    injected</p>
+                            </div>
+                            <div class="footer-contact">
+                                <ul>
+                                    <li>
+                                        <div class="icon"><i class="fas fa-phone"></i></div>
+                                        <div class="content">
+                                            <span>PHONE NUMBER</span>
+                                            <p><a href="tel:12345678">(021) 965 785 998</a></p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                                        <div class="content">
+                                            <span>EMAIL ADDRESs</span>
+                                            <p><a href="#"><span class="__cf_email__"
+                                                        data-cfemail="670e09010827141217170815134904080a">[email&#160;protected]</span></a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                                        <div class="content">
+                                            <span>address</span>
+                                            <p>Kusuma Bangsa, Surabaya, Indonesia</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="footer-right-wrap">
+                            <div class="row justify-content-between">
+                                <div class="col-lg-3 col-md-3 col-sm-6">
+                                    <div class="footer-widget mb-50">
+                                        <div class="fw-title mb-30">
+                                            <h4 class="title">Our Info</h4>
+                                        </div>
+                                        <div class="fw-link">
+                                            <ul>
+                                                <li><a href="#">About Us</a></li>
+                                                <li><a href="#">Our Service</a></li>
+                                                <li><a href="#">Our Shop</a></li>
+                                                <li><a href="#">Blog</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-3 col-sm-6">
+                                    <div class="footer-widget mb-50">
+                                        <div class="fw-title mb-30">
+                                            <h4 class="title">Quick Link</h4>
+                                        </div>
+                                        <div class="fw-link">
+                                            <ul>
+                                                <li><a href="#">About Us</a></li>
+                                                <li><a href="#">Our Service</a></li>
+                                                <li><a href="#">Our Shop</a></li>
+                                                <li><a href="#">Blog</a></li>
+                                                <li><a href="#">Contact</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-5 col-lg-6 col-md-6">
+                                    <div class="footer-widget mb-50">
+                                        <div class="fw-title mb-30">
+                                            <h4 class="title">Subscribe Us</h4>
+                                        </div>
+                                        <div class="footer-newsletter">
+                                            <form action="#">
+                                                <input type="email" placeholder="Your Mail...">
+                                                <button><i class="fas fa-angle-double-right"></i></button>
+                                            </form>
+                                        </div>
+                                        <div class="footer-social">
+                                            <ul>
+                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-payment-method-wrap">
+                                <div class="content">
+                                    <p>We know that honesty and transparency friendly customer service</p>
+                                </div>
+                                <div class="payment-card">
+                                    <img src="img/images/payment_card.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8">
+                        <div class="copyright-text">
+                            <p>Copyright © 2021. All rights reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="scroll-top scroll-to-target" data-target="html">
+                            <i class="fas fa-angle-up"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer-area-end -->
+
+
+
+
+
+    <!-- JS here -->
+    <script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="js/vendor/jquery-3.5.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.odometer.min.js"></script>
+    <script src="js/jquery.accrue.min.js"></script>
+    <script src="js/jquery.appear.js"></script>
+    <script src="js/jarallax.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+<!-- Halaman inventory-list.html pada , 01 Nov 2022 02:25:59 GMT -->
+
+</html>
