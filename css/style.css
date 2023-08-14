@@ -1848,7 +1848,8 @@ label {
 }
 
 .card-body{
-    background-color: #292929;
+    background-color: none;
+    border: none;
 }
 .card-link {
     padding-top: 0px;
@@ -5196,18 +5197,22 @@ label {
     }
 }
 
+.btn-link {
+    background-color: #ffe5cc;
+    color: #000;
+}
+.btn-link:hover {
+    background-color: #c47d3b;
+    color: #fff;
+}
+
 @media (max-width: 767px){
 
     .main-header.sticky-menu {
         position: fixed;
-        padding: 10px 0;
     }
     .breadcrumb-content {
-        padding: 8px!important;
+        padding: 10px !important;
     }
-    .main-header {
-        padding: 10px 0;
-    }
-
 
 }
